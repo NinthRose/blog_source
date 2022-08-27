@@ -6,7 +6,7 @@ tags:
   - tattle
 updated: 2019-9-17 14:32:00
 cover: ./img/books/first-year.jpeg
-categories: 闲言碎语
+categories: 日常碎语
 ---
 
 后来才知道，人生的很多告别，都悄无声息。

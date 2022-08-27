@@ -1,0 +1,18 @@
+#!/bin/bash
+# usage
+# 1 chmod 774 tkrestart
+# 2 new crontab: `tkrestart >> /home/baiker/hexo/tkserver/log`
+# 3 service cron reload
+
+set -x
+echo "tkrestart begin at $(date)"
+
+echo "shutdown tkserver"
+ps -ef | grep tkserver | grep -v 'grep' | awk '{print $2}' | xargs kill
+
+echo "---------- tkserver restart now -----------"
+cd /home/baiker/hexo/tkserver # tkserver home_path
+nohup /usr/local/bin/tkserver >> log 2>&1 &
+
+echo "tkrestart end"
+set +x

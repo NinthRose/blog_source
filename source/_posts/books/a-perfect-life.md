@@ -3,7 +3,7 @@ title: A perfect life，is a perfect lie.
 date: 2018-11-26 14:29:11
 updated: 2018-11-26 14:29:11
 tags: tattle
-categories: 闲言碎语
+categories: 日常碎语
 ---
 
 完美生活，即完美谎言。

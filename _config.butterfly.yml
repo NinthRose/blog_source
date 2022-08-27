@@ -13,7 +13,7 @@ menu:
     电影: /tags/movies/ || fas fa-video
     读书: /tags/books/ || fas fa-book
     图片: /tags/images/ || fas fa-images
-  链接: /link/ || fas fa-link
+  友接: /link/ || fas fa-link
   留言: /comment/ || fas fa-comment-dots
   关于: /about/ || fas fa-heart
 
@@ -39,8 +39,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-#  fab fa-github: https://github.com/NinthRose || Github
-#  fas fa-envelope: mailto:muguetbaiker@gmail.com || Email
+  # fab fa-github: https://github.com/NinthRose || Github
+  fas fa-envelope: mailto:muguetbaiker@gmail.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -131,12 +131,11 @@ cover:
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220821.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220820.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220819.jpg
-    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220818.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220817.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220816.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220815.jpg
-    - https://tupian.sioe.cn/b/bing-home-image/pic/20220814jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220814.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220813.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220812.jpg
     - https://tupian.sioe.cn/b/bing-home-image/pic/20220811.jpg
@@ -225,7 +224,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/NinthRose/blog_md/edit/master/source/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
 
@@ -718,7 +717,7 @@ newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
-  storage: 10 # unit: mins, save data to localStorage
+  storage: 2 # unit: mins, save data to localStorage
   avatar: true
 
 # Bottom right button (右下角按鈕)

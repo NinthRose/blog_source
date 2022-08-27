@@ -13,6 +13,10 @@
       link: https://www.deepl.com/zh/translator
       avatar: https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg
       descr: 全世界最准确的翻译
+    - name: 中文博客列表导航项目
+      link: https://zhblogs.ohyee.cc/
+      avatar: https://zhblogs.ohyee.cc/logo.png
+      descr: 尝试链接几乎所有的中文博客
 - class_name: 打发时间
   class_desc: 不值得推荐的网站
   link_list:
@@ -20,6 +24,18 @@
       link: https://api.edwiv.com/bzsy/
       avatar: https://api.edwiv.com/bzsy/%E6%96%87%E7%AB%A0.png
       descr: 最烂的作家
+    - name: 没有用的网站
+      link: https://theuselessweb.com/
+      avatar: https://theuselessweb.com/favicon.ico
+      descr: 每次点击按钮都会跳到一个无用网站
+    - name: 日本的VOCALOID P(创作おみくじ的人)
+      link: https://aidn.jp/contents/
+      avatar: https://aidn.jp/shared/icon/favicon.ico
+      descr: 自制浏览器游戏合集
+    - name: 奇趣收藏
+      link: https://nav.zhouxiaoben.info
+      avatar: https://zhouxiaoben.info/wp-content/uploads/2021/03/shocked.png
+      descr: 分享全球有趣的网站导航
 - class_name: 友情链接
   class_desc: 秉承互换友链原则、文章定期更新、不能有太多广告、个人描述字数控制在15字内
   link_list:
@@ -31,3 +47,11 @@
       link: https://www.sulvblog.cn
       avatar: https://www.sulvblog.cn/img/Q.gif
       descr: 一个记录技术、阅读、生活的博客
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg
+      descr: 流水幽吟绕耳边，煦风馨语抚心弦，挥臂欲揽冰钩月，银星斟酌醉人涎。
+    - name: 小冰博客
+      link: https://zfe.one
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！
