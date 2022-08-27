@@ -28,6 +28,14 @@ type: "untype"
 - [ ] 添加吸底
 
 
+demo:
+
+```md
 {% meting "1901371647" "netease" "song" "autoplay" "mutex:true" "preload:auto" %}
 <div class="aplayer no-destroy" data-id="1441758494" data-server="netease" data-type="song" data-autoplay="false" data-lrcType="-1"></div>
+```
+
+{% meting "1901371647" "netease" "song" "autoplay" "mutex:true" "preload:auto" %}
+<div class="aplayer no-destroy" data-id="1441758494" data-server="netease" data-type="song" data-autoplay="false" data-lrcType="-1"></div>
+
 

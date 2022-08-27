@@ -1,5 +1,5 @@
 ---
-title: gallery
+title: 图片
 date: 2022-08-11 13:58:53
 type: 'gallery'
 ---
