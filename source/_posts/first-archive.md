@@ -15,8 +15,8 @@ date: 2022-08-07 10:20:55
 
 - [x] 首页背景
 - [x] 滚动副标题
-- [ ] 评论
-    - 待审核
+- [x] 域名解析
+- [x] 评论
 - [x] 添加音乐
   - `{% meting "1901371647" "netease" "song" "autoplay" "autoplay:true" "mutex:true" "preload:auto" %}`
   - `<div class="aplayer no-destroy" data-id="1441758494" data-server="netease" data-type="song"  data-autoplay="false" data-lrcType="-1"></div>`
@@ -37,5 +37,3 @@ demo:
 
 {% meting "1901371647" "netease" "song" "autoplay" "mutex:true" "preload:auto" %}
 <div class="aplayer no-destroy" data-id="1441758494" data-server="netease" data-type="song" data-autoplay="false" data-lrcType="-1"></div>
-
-

@@ -128,25 +128,20 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - /img/bgs/bg-1.jpeg
-    - /img/bgs/bg-2.jpeg
-    - /img/bgs/bg-3.jpeg
-    - /img/bgs/bg-4.jpeg
-    - /img/bgs/bg-5.jpeg
-    - /img/bgs/bg-6.jpeg
-    - /img/bgs/bg-7.jpeg
-    - /img/bgs/bg-8.jpeg
-    - /img/bgs/bg-9.jpeg
-    - /img/bgs/bg-10.jpeg
-    - /img/bgs/bg-11.jpeg
-    - /img/bgs/bg-12.jpeg
-    - /img/bgs/bg-13.jpeg
-    - /img/bgs/bg-14.jpeg
-    - /img/bgs/bg-15.jpeg
-    - /img/bgs/bg-16.jpeg
-    - /img/bgs/bg-17.jpeg
-    - /img/bgs/bg-18.jpeg
-    - /img/bgs/bg-19.jpeg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220818.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220817.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220816.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220815.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220814jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220813.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220812.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220811.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220810.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220809.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220808.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220807.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220806.jpg
+    - https://tupian.sioe.cn/b/bing-home-image/pic/20220805.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
