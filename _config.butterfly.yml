@@ -32,8 +32,8 @@ code_word_wrap: true
 copy:
   enable: true
   copyright:
-    enable: false
-    limit_count: 50
+    enable: true
+    limit_count: 20
 
 # social settings (社交圖標設置)
 # formal:
@@ -84,8 +84,8 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: /img/avatar.jpeg
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -209,7 +209,7 @@ reward:
 # Easily browse and edit blog source code online.
 post_edit:
   enable: true
-  url: https://github.com/NinthRose/blog/edit/master/source/
+  url: https://github.com/NinthRose/blog_md/edit/master/source/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
 
 # Related Articles
@@ -219,14 +219,14 @@ related_post:
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # post_pagination (分頁)
 # value: 1 || 2 || false
 # 1: The 'next post' will link to old post
 # 2: The 'next post' will link to new post
 # false: disable pagination
-post_pagination: 1
+post_pagination: 2
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
@@ -411,7 +411,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: 欢迎来到<a href="https://riddle.luckyu.com.cn">彩蛋区</a>!
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -631,7 +631,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -685,10 +685,11 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 8/8/2022 00:00:00
 
 # Aside widget - Newest Comments
+# bug here baiker
 newest_comments:
   enable: false
   sort_order: # Don't modify the setting unless you know how it works
@@ -701,9 +702,9 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: 簡
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -725,7 +726,7 @@ darkmode:
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
-  autoChangeMode: false
+  autoChangeMode: 1
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
