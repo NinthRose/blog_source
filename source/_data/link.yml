@@ -3,16 +3,31 @@
   link_list:
     - name: Github
       link: https://www.github.com/
+      avatar: https://github.githubassets.com/apple-touch-icon-144x144.png
       descr: 全球最大同性交友网站
     - name: Youtube
       link: https://www.youtube.com/
       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
       descr: 让我瞅瞅
-    - name: Weibo
-      link: https://www.weibo.com/
-      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
-      descr: 中国最大社交分享平台
-    - name: Twitter
-      link: https://twitter.com/
-      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
-      descr: 社交分享平台
+    - name: DeepL
+      link: https://www.deepl.com/zh/translator
+      avatar: https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg
+      descr: 全世界最准确的翻译
+- class_name: 打发时间
+  class_desc: 不值得推荐的网站
+  link_list:
+    - name: 狗屁不通文章生成器
+      link: https://api.edwiv.com/bzsy/
+      avatar: https://api.edwiv.com/bzsy/%E6%96%87%E7%AB%A0.png
+      descr: 最烂的作家
+- class_name: 友情链接
+  class_desc: 秉承互换友链原则、文章定期更新、不能有太多广告、个人描述字数控制在15字内
+  link_list:
+    - name: 御宅男の博客
+      link: http://blog.yzncms.com/
+      avatar: https://blog.yzncms.com/static/modules/cms/images/avatar.jpg
+      descr: 分享一些技术文章，记录一些程序学习生涯中的问题，一同和您学习进步，来自御宅男的原创博客
+    - name: Sulv’s Blog
+      link: https://www.sulvblog.cn
+      avatar: https://www.sulvblog.cn/img/Q.gif
+      descr: 一个记录技术、阅读、生活的博客
