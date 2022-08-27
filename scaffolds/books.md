@@ -3,14 +3,7 @@ title: {{ date }}
 date: {{ date }}
 updated: {{ date }}
 tags: books
-categories: 
-cover: 
-type:
-comments:
-description:
-keywords:
+categories:
+cover:
 top_img:
-mathjax:
-katex:
-aside:
 ---
