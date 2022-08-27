@@ -786,14 +786,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true # for html aplayer
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -849,6 +849,10 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <div class="aplayer no-destroy" data-id="3779629" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> # new
+    # - <div class="aplayer no-destroy" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> # hot
+    # - <div class="aplayer no-destroy" data-id="19723756" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> # up
+    # - <div class="aplayer no-destroy" data-id="2884035" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> # origin
     # - <script src="xxxx"></script>
 
 # CDN
