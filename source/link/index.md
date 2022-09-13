@@ -26,10 +26,10 @@ type: 'link'
 发送申请内容到`563906875@qq.com`/`muguetbaiker@gmail.com`或在下方评论。 不定期更新
 
 ```md
-- name: Luck Dog
+- name: 小玖的空间
   link: https://luckyu.com.cn
   avatar: https://luckyu.com.cn/img/avatar.jpeg
-  descr: 客官请随意
+  descr: 都是风景，幸会
 ```
 
 黑名单

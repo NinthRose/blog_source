@@ -1093,6 +1093,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <meta name="baidu-site-verification" content="code-3AYVefFkd1" />
   bottom:
     - <div class="aplayer no-destroy" data-id="3779629" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> # new
     # - <div class="aplayer no-destroy" data-id="3778678" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div> # hot

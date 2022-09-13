@@ -32,7 +32,7 @@
     - [x] 邮件提醒
     - [x] 重启和备份
     - [x] 评论不显示
-        - 评论所属文章路由变更后，评论丢失，去数据库中修改对应路由即可
+        - `index.html`后缀与否代表不同页面，在`twikoo.init({...`添加`path: window.location.pathname.replace('index.html','')`即可
 - [x] 添加吸底
     - 使用网易云榜单
     - 使用随机榜单时，随机榜单字幕有重复问题

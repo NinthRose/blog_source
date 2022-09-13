@@ -12,4 +12,5 @@ categories: 日常碎语
 ![8-16蒸豆腐](./img/cookie/zheng-dou-fu.jpeg)
 ![8-24可乐鸡翅](./img/cookie/coke-chicken.jpeg)
 ![8-27红烧又](./img/cookie/hong-shao-you.jpeg)
+![9-3鸡胸又](./img/cookie/kao-ji-xiong-you.jpeg)
 {% endgallery %}
