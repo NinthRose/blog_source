@@ -1,7 +1,7 @@
 .DS_Store
+db.json
 data/
 .github/
-*.log
 node_modules/
 public/
 .deploy*/

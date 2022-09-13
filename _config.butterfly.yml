@@ -39,8 +39,9 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/NinthRose || Github
-  fas fa-envelope: mailto:muguetbaiker@gmail.com || Email
+  fab fa-github: https://github.com/NinthRose || Github
+  # fas fa-envelope: mailto:muguetbaiker@gmail.com || Email
+  fas fa-envelope: mailto:563906875@qq.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -225,7 +226,8 @@ reward:
 # Easily browse and edit blog source code online.
 post_edit:
   enable: false
-  url: https://github.com/NinthRose/blog_md/edit/master/source/
+  # url: https://github.com/NinthRose/blog_source/edit/master/source/ # edit
+  url: https://github.com/NinthRose/blog_source/blob/master/source/ # check
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
 
 # Related Articles
@@ -663,7 +665,7 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/NinthRose

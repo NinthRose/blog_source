@@ -3,6 +3,10 @@ title: 关于我
 date: 2022-08-14 16:16:26
 ---
 
+关于本人
+---
+
+随便介绍一下：
 {% inlineImg https://img.shields.io/badge/年龄-27-orange %}
 {% inlineImg https://img.shields.io/badge/性别-男-informational %}
 {% inlineImg https://img.shields.io/badge/星座-射手-informational %}
@@ -15,3 +19,8 @@ date: 2022-08-14 16:16:26
 {% gallery %}
 ![](./img/wechat.jpeg)
 {% endgallery %}
+
+关于[本站](https://github.com/NinthRose/blog_source#readme)
+---
+
+如果有什么建议可以联系本人，去源码处提[issue](https://github.com/NinthRose/blog_source/issues)或在下方评论均可，采纳有惊喜。
