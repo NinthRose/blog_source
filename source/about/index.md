@@ -6,7 +6,7 @@ date: 2022-08-14 16:16:26
 关于本人
 ---
 
-随便介绍一下：
+Baiker 原名xxx，字xx，号xx
 {% inlineImg https://img.shields.io/badge/年龄-27-orange %}
 {% inlineImg https://img.shields.io/badge/性别-男-informational %}
 {% inlineImg https://img.shields.io/badge/星座-射手-informational %}
