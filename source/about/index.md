@@ -9,7 +9,7 @@ date: 2022-08-14 16:16:26
 Baiker 原名xxx，字xx，号xx
 {% inlineImg https://img.shields.io/badge/年龄-27-orange %}
 {% inlineImg https://img.shields.io/badge/性别-男-informational %}
-{% inlineImg https://img.shields.io/badge/星座-射手-informational %}
+{% inlineImg https://img.shields.io/badge/星座-射手-yellow %}
 
 比较热爱运动，热爱程度：*不想宅，但宅着真香*
 游戏的话，目前只会`王者荣耀`和`ps5`，欢迎来(带)开(我)黑(飞)
