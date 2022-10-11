@@ -3,7 +3,7 @@ title: 火烧云
 date: 2022-10-9 18:44:41
 tags:
   - weather
-cover: ./img/weather/evening-glow.jpeg
+cover: ./img/weather/evening-glow0.jpeg
 categories: 日常碎语
 ---
 
