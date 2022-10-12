@@ -5,7 +5,6 @@ highlight_shrink: false
 type: 'link'
 ---
 
-
 申请友链
 ---
 
