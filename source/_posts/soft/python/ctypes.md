@@ -53,6 +53,24 @@ ctypes是python的一个函数库，提供和C语言兼容的数据类型，可�
 usage
 ---
 
+cdll demo:
+```python
+import sys, ctypes
+from platform import system, architecture
+windows = 'windows' in system.lower()
+# working on architecture() in sys.byteorder
+if windows:
+    api = ctypes.WinDLL('lib.dll')
+else:
+    api = ctypes.CDLL('lib.so')
+
+# attention long: longlong 8字节，int 4字节，long不稳定，尽量不要用
+long_effect = sizeof(c_long) != sizeof(c_int)
+if not long_effect:
+    c_long = c_longlong
+    c_ulong = c_ulonglong
+```
+
 simple:
 
 ```python
@@ -105,6 +123,7 @@ from ctypes import *
 demo_api = CDLL("lib.so")
 
 class REQ(Structure):
+    _pack_ = True  # 1字节对齐
     _fields_ = [
         ("c", c_char),
         ("list", c_int * 256),
@@ -141,12 +160,21 @@ class REQ(Structure):
         ("i", c_uint),
     ]
 
-callback_type = ctypes.CFUNCTYPE(c_int, REQ)
+if windows:
+    callback_type = ctypes.WINFUNCTYPE(c_int, REQ)
+else:
+    callback_type = ctypes.CFUNCTYPE(c_int, REQ)
 
 def print_log(i, data):
-    print(i, data)
+    print(i, data)  # print object's type
+    print(data.c)  # print a char
+    print(data.__dict__)  # nothing
 
 demo_api.func.argtypes = [c_void_p]
 demo_api.func.restype = c_int
-res = demo_api.func(callback_type(print_log))
+callback_func = callback_type(print_log)
+res = demo_api.func(callback_func)
+
+# 不可使用临时变量，垃圾回收之后，回调函数不可用
+# res = demo_api.func(callback_type(print_log))
 ```
