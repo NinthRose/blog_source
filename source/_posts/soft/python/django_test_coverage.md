@@ -6,6 +6,10 @@ tags:
 date: 2022-11-09 21:46:47
 updated: 2022-11-09 21:46:47
 categories: 学习笔记
+highlight_shrink: true
+---
+
+usage
 ---
 
 ```bash
@@ -39,4 +43,15 @@ omit =
 [report]
 show_missing = True
 skip_covered = True
+```
+
+test demo
+---
+
+```python
+class XXXTest(TestCase):
+    def test_xxx(self):
+        self.client.get(url)
+
+        self.client.post(url,  data={}, content_type='application/json')
 ```

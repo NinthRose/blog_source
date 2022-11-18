@@ -4,14 +4,13 @@ date: 2022-10-12 14:04:45
 ---
 
 
-{% wow animate__flip %}
-{% note green 'fas fa-fan' modern%}
-`flip`动画效果。
-{% endnote %}
-{% endwow %}
+
 
 {% wow animate__flip %}
-`flip`动画效果。
+{% note green 'fas fa-fan' modern%}
+2022-11-19
+<iframe width=550 height=350 src="/img/badminton/carton.mp4" frameborder=0 allowfullscreen></iframe>
+{% endnote %}
 {% endwow %}
 
 {% wow animate__zoomIn,5s,5s,100,10 %}
