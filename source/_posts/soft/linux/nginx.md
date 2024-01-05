@@ -24,6 +24,7 @@ categories: linux软件
 blog.conf:
 
 ```config
+# limit_req_zone $binary_remote_addr zone=addr:10m rate=4r/m;
 server {
     # http socket
     listen       443 ssl;
@@ -40,6 +41,7 @@ server {
     ssl_prefer_server_ciphers on;
 
     location / {
+        # limit_req zone=one;
         include uwsgi_params;
         # 接口映射 映射本地服务接口
         # uwsgi_pass unix:/tmp/uwsgi.sock;
