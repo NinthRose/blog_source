@@ -905,7 +905,7 @@ aside:
       link: https://github.com/NinthRose
   card_announcement:
     enable: true
-    content: 一个叫小玖的男人决定快乐
+    content: 一个叫小玖的男孩儿决定快乐
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
